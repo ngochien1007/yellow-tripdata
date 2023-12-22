@@ -11,17 +11,17 @@ processing using **Event Hubs**, **Data Factory**, **Azure Databricks**, and **D
 
 ## Tutorial
 
-**Step 1**: Using `preprocessing.ipynb` to split the original data file to 2 files for demonstration: one simulated file for batch processing is **Batch_Data.csv** and one simulated file for streaming processing is **Streaming_Data.csv**.
+- **Step 1**: Using `preprocessing.ipynb` to split the original data file to 2 files for demonstration: one simulated file for batch processing is **Batch_Data.csv** and one simulated file for streaming processing is **Streaming_Data.csv**.
 
-**Step 2**: In Microsoft Azure, create a resource group with essential marketplaces such as Storage Account, Event Hubs, Data Factory, and Databricks.
+- **Step 2**: In Microsoft Azure, create a resource group with essential marketplaces such as Storage Account, Event Hubs, Data Factory, and Databricks.
 
-**Step 3**: In Data Factory, create a pipeline to ingest and process batch data. Here, **Batch_Data.csv** is divided into 2 partitions to simulate the actual case when there is new data or a time period when data needs to be updated according to the process.
+- **Step 3**: In Data Factory, create a pipeline to ingest and process batch data. Here, **Batch_Data.csv** is divided into 2 partitions to simulate the actual case when there is new data or a time period when data needs to be updated according to the process.
 
-**Step 4**: Connect Databricks to Data Lake Storage Gen2.
+- **Step 4**: Connect Databricks to Data Lake Storage Gen2.
 
-**Step 5**: Collect streaming data using Python with `send.py` and `ETL_EventHubs_Databricks_Storage.ipynb`.
+- **Step 5**: Collect streaming data using Python with `send.py` and `ETL_EventHubs_Databricks_Storage.ipynb`.
 
-**Step 6**: Extract the necessary attributes and put it into the Gold table.
+- **Step 6**: Extract the necessary attributes and put it into the Gold table.
 
 ## File Structure
 
