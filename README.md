@@ -29,7 +29,7 @@ This is a small project that I did in the process of learning the subject **Clou
 
 ## Related Resources
 - Dataset: [Kaggle | NYC Yellow Taxi Trip 01-2016](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data?select=yellow_tripdata_2016-01.csv)
-- Video Demo:
+- Video Demo: [Ingestion, ETL, and stream processing pipelines with Azure Databricks and Delta Lake](https://youtu.be/ooQaSN5IoGs)
 
 ## References
 [Tutorial: Connect to Azure Data Lake Storage Gen2](https://learn.microsoft.com/en-us/azure/databricks/getting-started/connect-to-azure-storage)
