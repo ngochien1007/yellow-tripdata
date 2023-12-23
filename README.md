@@ -1,7 +1,5 @@
 # Ingestion, ETL, and stream processing pipelines with Azure Databricks and Delta Lake
 
-## Project Description
-
 This is a small project that I did in the process of learning the subject **Cloud Computing** at UIT. In this one, I built simple pipelines for batch and stream 
 processing using **Event Hubs**, **Data Factory**, **Azure Databricks**, and **Delta Lake** based on the architecture mentioned below.
 
